@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>myWebsite</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: courier, sans-serif;
+      line-height: 1.6;
+      background: #9dad73;
+      color: #302318;
+    }
+    header {
+      background: #586936;
+      color: #c0d9a3;
+      padding: 2rem 1rem;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      padding: 10px 16px;
+    
+    }
+    main {
+      max-width: 960px;
+      margin: 1.5rem auto;
+      padding: 0 1rem;
+    }
+    section {
+      background: #f0e9c5;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      margin-bottom: 1.5rem;
+      padding: 1.5rem;
+    }
+    h1, h2 {
+      margin-top: 0;
+    }
+    .intro {
+      font-size: 1.1rem;
+    }
+    .projects {
+      display: flex;
+      gap: 1rem;
+      overflow-x: auto;
+      padding-bottom: 0.5rem;
+      -webkit-overflow-scrolling: touch;
+      -ms-overflow-style: none; /* IE and Edge */
+      scrollbar-width: none; /* Firefox */
+    }
+    .projects::-webkit-scrollbar {
+      height: 0;
+      display: none;
+    }
+    .project-card {
+      background: #cbad83;
+      border: 1px solid #cbad83;
+      border-radius: 6px;
+      padding: 1rem;
+      min-width: 220px;
+      flex: 0 0 auto;
+      -webkit-overflow-scrolling: touch;
+      -ms-overflow-style: none; /* IE and Edge */
+      scrollbar-width: none; /* Firefox */
+    }
+    .project-card h3 {
+      margin-top: 0;
+      margin-bottom: 0.5rem;
+      font-size: 1.05rem;
+    }
+    .contact-list {
+      list-style: none;
+      padding-left: 0;
+    }
+    .contact-list li {
+      margin-bottom: 0.5rem;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header" id="myHeader">
+    <h1>Keela's Portfolio</h1>
+    <p class="intro">Here is a selection of my projects, skills, as well as contact information.</p>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <h2>About Me</h2>
+      <p>Hello, my name is Keela.<br>
+         I'm a Digital Arts and Technology student at University of Galway. I study Computer Science, Digital Arts and Media and French.<br>
+         I enjoy learning new tools, creating polished designs, and solving problems with code.<br>
+        I have always had a passion for art and hope to implement it to technological fields.</p>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <div class="projects">
+        <div class="project-card">
+          <h3>Portfolio Website</h3>
+          <p>A responsive portfolio site built with:<br>
+            <ul>
+                <li>HTML for structure</li>
+                <li>CSS for styling and layout</li>
+                <li>JavaScript for interactivity and dynamic content</li>
+            </ul> 
+        </p>
+        </div>
+        <div class="project-card">
+          <h3>Something</h3>
+          <p>blahahahahahahahahahahahabababbabdh <br>
+            blahahahahahahahahahahahabababbabdh  <br>
+            blahahahahahahahahahahahabababbabdh </p>
+        </div>
+        <div class="project-card">
+          <h3>Something else</h3>
+          <p>blahahahahahahahahahahahabababbabdh <br>
+            blahahahahahahahahahahahabababbabdh  <br>
+            blahahahahahahahahahahahahabababbabdh </p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <p><ul>
+        <li>HTML, CSS, JavaScript</li>
+        <li>Responsive Design</li>
+        <li>Adobe Creative Suite</li>
+      </ul></p>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <ul class="contact-list">
+        <li>Email: keelacu@hotmail.com.com</li>
+        <li>LinkedIn: linkedin.com/in/keela</li>
+        <li>GitHub: github.com/keela</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>Designed and built by Keela.</p>
+  </footer>
+</body>
+</html>
